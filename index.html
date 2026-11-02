@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kamaputra Kamaruddin — final-year Computer Science (Hons.) student interested in data analytics, data science, and backend development.">
+  <meta name="theme-color" content="#eef7f8">
+  <title>Kamaputra Portfolio</title>
+  <link rel="icon" type="image/png" href="assets/images/icon-rounded.png">
+  <link rel="icon" type="image/jpeg" href="assets/images/icon.jpg">
+  <link rel="apple-touch-icon" href="assets/images/icon-rounded.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" aria-label="Site header">
+    <div class="nav-inner">
+      <a class="brand" href="#home" aria-label="Kamaputra, back to top"><img class="brand-icon" src="assets/images/icon.jpg" alt="Kamaputra logo" width="36" height="36"><span class="brand-text">KAMA<span class="brand-accent">PUTRA.</span></span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-controls="nav-links" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a><a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-shell">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <span class="eyebrow">Hello, I'm Kamaputra</span>
+        <h1 id="hero-title">Kamaputra<br>Kamaruddin</h1>
+        <div class="hero-role">Final-Year Computer Science (Hons.) Student</div>
+        <p class="hero-description">I enjoy turning raw data into meaningful insights, building predictive models, and developing practical technology solutions.</p>
+        <div class="hero-actions">
+          <a class="button" href="#projects">Explore Projects <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+          <a class="button button-outline" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <a href="#projects" class="hero-scroll"><i></i>Scroll to explore</a>
+    </section>
+
+    <main id="main">
+      <section class="section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-head"><span class="section-index">Selected Work</span><h2 id="projects-heading">Selected Projects</h2>
+          <p>Three projects exploring forecasting, data analysis and applied machine learning. Select a project for a closer look at the approach and outcomes.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual project-visual--forecast" role="img" aria-label="Illustrative forecast curve and trend chart, not actual project data">
+              <img src="assets/images/forecast.jpg" alt="" loading="lazy">
+            </div>
+            <div class="project-body"><span class="card-number">01 — Forecasting &amp; Decision Support</span><div class="mini-rule"></div><h3>AI-Powered Sales Forecasting</h3>
+            <p>Built a CSV-driven system with five-day sales forecasts, weather-aware analysis and ingredient planning for multiple outlets.</p>
+            <div class="tech-list"><span class="tech-pill">Python</span><span class="tech-pill">Flask</span><span class="tech-pill">Facebook Prophet</span><span class="tech-pill">SQLite</span></div>
+            <button class="button button-outline open-project" data-project="fyp" type="button">View Project <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+          </div>
+          </article>
+
+          <!-- 02: OpenDOSM Household Economy & Cost-of-Living Analytics -->
+          <article class="project-card">
+            <div class="project-visual project-visual--analytics" role="img" aria-label="Power BI Executive Overview and Cost-of-Living Analytics Dashboard">
+              <img src="assets/images/Dashboard_Overview.png" alt="" loading="lazy">
+            </div>
+            <div class="project-body"><span class="card-number">02 — Data Analytics &amp; BI Case Study</span><div class="mini-rule"></div><h3>Malaysia Household Economy &amp; Cost-of-Living Analytics</h3>
+            <p>An interactive analysis of Malaysian household income and everyday living costs across 16 states, showing how rising prices impact family savings and purchasing power.</p>
+            <div class="tech-list"><span class="tech-pill">Python</span><span class="tech-pill">MySQL</span><span class="tech-pill">Excel</span><span class="tech-pill">Power BI</span><span class="tech-pill">DAX</span></div>
+            <button class="button button-outline open-project" data-project="analytics" type="button">View Project <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button>
+          </div>
+          </article>
+
+          <!-- 03: Brain Tumor Detection -->
+          <article class="project-card">
+            <div class="project-visual project-visual--brain" role="img" aria-label="Abstract MRI-inspired illustration; not a real medical scan or prediction">
+              <img src="assets/images/brain.jpg" alt="" loading="lazy">
+            </div>
+            <div class="project-body">
+              <span class="card-number">03 — Computer Vision</span>
+              <div class="mini-rule"></div>
+              <h3>Brain Tumor Detection</h3>
+            <p>Trained a YOLOv8 model to detect three tumor types in Kaggle MRI scans, achieving 92.10% mAP50 in academic testing.</p>
+            <div class="tech-list">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">YOLOv8</span>
+              <span class="tech-pill">Streamlit</span>
+            </div>
+            <button class="button button-outline open-project" data-project="brain" type="button">View Project 
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14m-6-6 6 6-6 6"/>
+              </svg>
+            </button>
+          </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-heading">
+        <div class="glass-panel about-panel">
+          <div class="about-copy">
+            <span class="section-index">The Person Behind the Work</span>
+            <h2 id="about-heading">A Little About Me</h2>
+            <p>I'm Kamaputra Kamaruddin, a final-year Bachelor of Computer Science (Hons.) student at Universiti Selangor (UNISEL).</p>
+            <p>I'm passionate about data analytics and data science, particularly turning raw data into meaningful insights and exploring machine learning to solve practical problems.</p>
+            <p>I also enjoy backend development and am eager to keep learning, strengthen my technical skills, and contribute to innovative software solutions.</p>
+          </div>
+          <div class="portrait-frame">
+            <img src="assets/images/kama.jpeg" alt="Placeholder for Kamaputra's personal portrait" loading="lazy">
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="skills" aria-labelledby="skills-heading">
+
+        <div class="section-head">
+          <span class="section-index">Tools &amp; Technologies</span>
+          <h2 id="skills-heading">Technical Skills</h2>
+          <p>
+            Core technologies I used
+          </p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- 01: Programming & Query Languages -->
+          <article class="skill-card">
+            <div class="skill-icon" aria-hidden="true">01</div>
+            <h3>Web &amp; Programming Languages</h3>
+
+            <div class="tech-list">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">PHP</span>
+              <span class="tech-pill">HTML</span>                                                                                                                                                       
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+          </article>
+
+          <!-- 02: Frameworks & Libraries -->
+          <article class="skill-card">
+            <div class="skill-icon" aria-hidden="true">02</div>
+            <h3>Frameworks &amp; Libraries</h3>
+
+            <div class="tech-list">
+              <span class="tech-pill">Pandas</span>
+              <span class="tech-pill">NumPy</span>
+              <span class="tech-pill">Scikit-learn</span>
+              <span class="tech-pill">Bootstrap</span>
+              <span class="tech-pill">Flask</span>
+            </div>
+          </article>
+
+          <!-- 03: Databases & Cloud Platforms -->
+          <article class="skill-card">
+            <div class="skill-icon" aria-hidden="true">03</div>
+            <h3>Databases</h3>
+
+            <div class="tech-list">
+              <span class="tech-pill">MySQL</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">SQLite</span>
+            </div>
+          </article>
+
+          <!-- 04: Analytics Tools & Methods -->
+          <article class="skill-card">
+            <div class="skill-icon" aria-hidden="true">04</div>
+            <h3>Tools &amp; Methods</h3>
+
+            <div class="tech-list">
+              <span class="tech-pill">Git/GitHub</span>
+              <span class="tech-pill">Power BI</span>
+              <span class="tech-pill">Excel</span>
+              <span class="tech-pill">ETL</span>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+
+      <section class="section" id="education" aria-labelledby="education-heading">
+        <div class="section-head">
+          <span class="section-index">Background</span>
+          <h2 id="education-heading">Education &amp; Achievements</h2>
+          <p>A brief look at my academic background and accomplishments.</p>
+        </div>
+        <div class="credentials-grid">
+          <div class="glass-panel credential-card">
+            <h3>Education</h3><div class="credential-item">
+              <h4>Bachelor of Computer Science (Hons.)</h4>
+              <p>Universiti Selangor (UNISEL) · Ongoing</p>
+              <div class="credential-tag">Current CGPA · 3.89</div>
+            </div>
+            <div class="credential-item">
+              <h4>Diploma in Computer Science (Industrial Computing)</h4>
+              <p>Universiti Selangor (UNISEL) · 2021–2024</p>
+              <div class="credential-tag">CGPA · 3.71</div>
+            </div>
+          </div>
+          <div class="glass-panel credential-card">
+            <h3>Achievements</h3>
+            <div class="credential-item">
+              <h4>Dean's List Awardee</h4>
+              <p>· Bachelor's: 4 semesters</p>
+              <p>· Diploma: 3 semesters</p>
+            </div>
+            <div class="credential-item">
+              <h4>5th Place — Top Coder Malaysia</h4>
+              <p>University Level · 2025</p>
+            </div>
+            <div class="credential-item">
+              <h4>AI in Data Analytics &amp; Prompt Engineering</h4>
+              <p>Selangor Digital School &amp; AI Nusantara</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-heading">
+        <div class="glass-panel contact-panel">
+          <span class="section-index">Get in Touch</span>
+          <h2 id="contact-heading">Let's Connect</h2>
+          <p>I'm open to opportunities in data analytics, data science and related technology roles. Feel free to reach out or explore my work.</p>
+          <div class="contact-links" aria-label="Contact links to be added">
+            <button 
+                    type="button" 
+                    class="contact-chip" 
+                    style="cursor: pointer;"
+                    onclick="navigator.clipboard.writeText('kama.putra.kk@gmail.com'); const el = this.querySelector('span'); el.textContent = 'Copied!'; setTimeout(() => el.textContent = 'kama.putra.kk@gmail.com', 2000);">
+                    <i class="fas fa-envelope" aria-hidden="true"></i> &nbsp;·&nbsp; <span>kama.putra.kk@gmail.com</span>
+            </button>
+            <a href="https://www.linkedin.com/in/kamaputra/" class="contact-chip" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn ↗</a>
+            <a href="https://github.com/Kama1804" class="contact-chip" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 Kamaputra Kamaruddin</span>
+      <span>Design inspired by 
+        <a href="https://html5up.net/massively" target="_blank" rel="noopener noreferrer">Massively — HTML5 UP</a>
+      </span>
+    </footer>
+  </div>
+
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-subtitle">
+    <div class="dialog-inner">
+      <div class="dialog-top">
+        <div><div class="detail-label">Selected Project / Case Study</div>
+        <h2 id="dialog-title"></h2>
+        <p id="dialog-subtitle" class="dialog-subtitle"></p>
+      </div>
+      <button type="button" class="dialog-close" id="dialog-close" aria-label="Close project details">×</button>
+    </div>
+      <div class="dialog-visual" id="dialog-visual" aria-label="Illustrative visual for this project"></div>
+      <div class="metric-grid" id="dialog-metrics" aria-label="Project results" hidden></div>
+      <div><div class="detail-label">Approach &amp; Problem Solving</div><h3>Key Challenges &amp; Solutions</h3><ul class="challenge-list" id="dialog-challenges"></ul></div>
+      <div class="dialog-outcome"><div class="detail-label">What the Work Produced</div><h3>Outcome &amp; Impact</h3><p id="dialog-outcome"></p><p id="dialog-note" class="dialog-note"></p></div>
+      <div class="dialog-bottom">
+        <div class="tech-list" id="dialog-tech"></div>
+        <div class="dialog-actions">
+          <a id="dialog-repo" class="button" href="#" target="_blank" rel="noopener noreferrer" hidden>
+            <i class="fab fa-github" aria-hidden="true"></i>&nbsp; View Repo ↗
+          </a>
+          <button type="button" class="button button-outline" id="dialog-done">Close Details</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/repo.js" defer></script>
+</body>
+</html>

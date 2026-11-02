@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900" role="img" aria-label="Neutral portrait placeholder">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6f2f3"/><stop offset="1" stop-color="#cfdee7"/></linearGradient><radialGradient id="halo"><stop stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="700" height="900" rx="45" fill="url(#bg)"/>
+  <circle cx="350" cy="320" r="320" fill="url(#halo)"/>
+  <circle cx="350" cy="325" r="146" fill="#8eb7bf" opacity=".82"/>
+  <path d="M100 845c10-190 90-300 250-300s240 110 250 300" fill="#8eb7bf" opacity=".82"/>
+  <path d="M180 840c25-115 78-176 170-176s145 61 170 176" fill="#6c9eaa" opacity=".45"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".64" stroke-width="2"><rect x="34" y="34" width="632" height="832" rx="30"/></g>
+</svg>
