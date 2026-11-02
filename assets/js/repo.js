@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Update these two URLs with your exact GitHub repository names if different
   const repoLinks = {
+    fyp: 'https://github.com/Kama1804/-coffee_forecasting_system',
     analytics: 'https://github.com/Kama1804/malaysia-household-economy-analytics',
     brain: 'https://github.com/Kama1804/brain-tumor-dashboard-kamaputra'
   };
@@ -13,8 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Run on next tick after main.js populates the dialog
       setTimeout(() => {
-        // 1. Show "View Repo" ONLY for 'analytics' and 'brain', hide for 'fyp' (Forecast)
-        if (projectKey === 'analytics' || projectKey === 'brain') {
+        if (repoLinks[projectKey]) {
           repoBtn.href = repoLinks[projectKey];
           repoBtn.hidden = false;
           repoBtn.style.display = 'inline-flex';
