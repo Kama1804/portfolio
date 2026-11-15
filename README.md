@@ -2,7 +2,7 @@
 
 > Personal portfolio of Kamaputra Kamaruddin — final-year Bachelor of Computer Science (Hons.) student at Universiti Selangor (UNISEL), focused on data analytics, machine learning, and backend technology solutions.
 
-🌐 **Live Website:** [https://kama1804.github.io/portfolio/](https://kama1804.github.io/portfolio/)
+🌐 **Live Website:** [https://kama1804.github.io/portfolio/]([https://kama1804.github.io/portfolio/](https://kamaputra.site/))
 
 ---
 ## 📂 Project Structure
